@@ -28,10 +28,10 @@ Moví el cubo con las flechas y la esfera con las teclas WASD. Adapté el movimi
 ![Ejecución](2025-10-05-20-10-49.gif)
 ### Ejercicio 11
 Hice que el cubo se moviera hacia la esfera sin importar la distancia entre ambos. [Enlace al Script](CuboSigueEsfera.cs)
-![Ejecución](2025-10-0618-21-39.gif)
+![Ejecución](11.gif)
 ### Ejercicio 12
 El cubo siempre avanza mirando hacia la esfera, girando automáticamente hacia ella. [Enlace al Script](CuboMiraEsfera.cs)
-![Ejecución](2025-10-0618-27-17.gif)
+![Ejecución](12.gif)
 ### Ejercicio 13
 Hice que el cubo avanzara hacia adelante y girara con el eje horizontal. [Enlace al Script](MovimientoConRotacion.cs)
-![Ejecución](2025-10-0618-31-09.gif)
+![Ejecución](13.gif)
