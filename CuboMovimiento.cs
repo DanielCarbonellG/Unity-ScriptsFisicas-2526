@@ -19,10 +19,7 @@ public class CuboMovimiento : MonoBehaviour
     void Update()
     {
         // Movemos el cubo cada frame
-        // Movimiento relativo al sistema mundial (por defecto)
         transform.Translate(moveDirection * speed * Time.deltaTime, Space.World);
-
-        // Si quieres probar el movimiento relativo al sistema local:
-        // transform.Translate(moveDirection * speed * Time.deltaTime, Space.Self);
     }
+
 }
