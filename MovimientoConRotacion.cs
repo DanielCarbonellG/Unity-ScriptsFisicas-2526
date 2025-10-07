@@ -16,8 +16,6 @@ public class MovimientoConRotacion : MonoBehaviour
 
         // --- Avanzar en la dirección hacia adelante ---
         transform.Translate(Vector3.forward * avance * velocidadMovimiento * Time.deltaTime);
-
-        // --- Depuración visual ---
-        Debug.DrawRay(transform.position, transform.forward * 2f, Color.red);
     }
 }
+
