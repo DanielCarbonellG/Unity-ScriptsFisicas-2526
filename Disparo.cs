@@ -17,6 +17,6 @@ public class Disparo : MonoBehaviour
     void Disparar()
     {
         Debug.Log("¡Disparo activado!");
-        // Aquí puedes agregar lógica de bala, efecto, animación, etc.
     }
+
 }
