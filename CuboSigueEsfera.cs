@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CuboSigueEsfera : MonoBehaviour
 {
-    public GameObject esfera;  // arrástrala desde el inspector
+    public GameObject esfera; 
     public float speed = 3f;   // velocidad configurable en el inspector
 
     void Update()
@@ -25,3 +25,4 @@ public class CuboSigueEsfera : MonoBehaviour
         transform.Translate(direccion * speed * Time.deltaTime, Space.World);
     }
 }
+
